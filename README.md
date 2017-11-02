@@ -1,6 +1,6 @@
-This module is forked from ECPay/ECPayAIO_Node.js.
+This module is forked from ECPay/ECPayAIO_Node.js
 
-Add options injection ( see example/ )
+Add options injection ( see /ECPAY_Payment_node_js/example/ )
 
 Usage:
 ```
