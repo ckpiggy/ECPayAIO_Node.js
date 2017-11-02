@@ -1,5 +1,5 @@
 {
-  "name": "ecpay_payment_nodejs",
+  "name": "ECPayAIO",
   "version": "1.0.0",
   "description": "ECPayAIO module npm integration forked from ECPay/ECPayAIO_Node.js",
   "main": "index.js",
