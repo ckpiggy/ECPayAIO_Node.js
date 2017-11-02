@@ -84,8 +84,8 @@ class APIHelper {
                return a.toLowerCase().localeCompare(b.toLowerCase());
            }));
            // console.log(temp_arr);
-           let raw = temp_arr.forEach(function (key) {od[key] = params[key];});
-           raw = JSON.stringify(od).toLowerCase().replace(/":"/g, '=');
+           temp_arr.forEach(function (key) {od[key] = params[key];});
+           let raw = JSON.stringify(od).toLowerCase().replace(/":"/g, '=');
            raw = raw.replace(/","|{"|"}/g, '&');
            raw = this.urlencode_dot_net(`HashKey=${this.hkey}${raw}HashIV=${this.hiv}`);
            console.log(raw);
